@@ -45,7 +45,7 @@ div#container1, #container2, #container3 {
   position: relative;
   top: 60px;
   float: left;
-  margin: 0px;
+  margin-right: 5px;
 }
 
 /********** Large devices only **********/

@@ -1,0 +1,121 @@
+body {
+  font-size: 16px;
+  background-color:
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #696969;
+  border-radius: 0;
+  border: solid black;
+  border-width: 3px;
+}
+
+.navbar-brand h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  float: left;
+  line-height: 0px;
+}
+
+#nav-list {
+  margin: 0px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  }
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: none;
+  margin-top: 20px;
+  margin-right: 30px;
+  clear: inherit;
+}
+
+div > h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+  color: #000000;
+}
+
+h3 {
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #000000;
+}
+
+p {
+ color: #000000;
+ padding: 10px;
+}
+
+#Chicken-tiles, #Beef-tiles, #Sushi-tiles {
+  background-color: #696969;
+  margin: 10px;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 0;
+}
+/* END HOME PAGE */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .navbar-brand h1 {
+    font-size: 2.3em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    margin-left: 15px;
+    font-size: 2.3em;
+  }
+
+  #Chicken-tiles, #Beef-tiles, #Sushi-tiles {
+    width: 75%;
+    margin: 0 auto 15px;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+    margin-bottom: 0;
+    border-top: 3px solid #000000;
+  }
+
+  #nav-list a {
+    border-bottom: solid black;
+    border-width: 1px;
+  }
+
+  .container {
+    margin-bottom: 0px;
+    padding: 0;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+}
